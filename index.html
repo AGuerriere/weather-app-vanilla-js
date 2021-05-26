@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+</head>
+<body>
+    <div class="tc ttu tracked" id="container">
+        <h1 class="ttu tracked">Weather Card</h1>
+        <form id="searchForm">
+            <div class="pa2">
+                <input id="input" type="text" placeholder="Enter Location" class="pa3 ba "><br><p id="error"></p>
+                <a id="submit" class="f6 link dim br1 ph3 pv2 mb2 dib white bg-hot-pink" href="#0">Search</a>
+            </div>
+        </form>
+        <div id="card" class="tc bg-light-green br3 pa3 ma2 dib bw2 shadow-5'">
+            <h2 id="displayCity"></h2>
+            <h1 id="temperature"></h1>
+            <h4 id="feelsLike"></h3>
+            <img alt="weather icon" id="icon">
+            <h4 id="description"></h4>
+        </div>
+    </div>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
